@@ -37,7 +37,12 @@ legend {
     line-height: 1.5;
 }
 
-.profile-details strong {
+.profile-info-cell td, 
+.profile-info-cell strong {
+    color: inherit;
+}
+
+.profile-info-cell strong {
     color: #01579B;
 }
 
@@ -85,6 +90,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
