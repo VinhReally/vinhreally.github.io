@@ -20,7 +20,7 @@ fieldset:hover {
 }
 
 legend {
-    color: #ffffff
+    color: #ffffff;
     font-family: 'Bebas', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
@@ -31,7 +31,7 @@ legend {
 }
 
 .profile-info-cell {
-    color: #263238
+    color: #263238;
     font-family: 'Roboto', sans-serif;
     font-size: large;
     line-height: 1.5;
@@ -85,6 +85,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
