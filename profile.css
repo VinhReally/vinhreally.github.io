@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('UTM Bebas.ttf');
+}
 fieldset {
     border: 2px solid #000000;
     border-radius: 10px;
@@ -9,6 +13,7 @@ fieldset {
 }
 
 legend {
+    font-family: 'Bebas', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     border: 2px solid black;
@@ -18,7 +23,7 @@ legend {
 }
 
 .profile-info-cell {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     line-height: 1.5;
 }
@@ -67,5 +72,6 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
