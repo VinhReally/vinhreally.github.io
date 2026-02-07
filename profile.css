@@ -30,7 +30,7 @@ legend {
     background-color: #0091EA;
 }
 
-.profile-info-cell * {
+.info-table td {
     color: red !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: large;
@@ -39,6 +39,9 @@ legend {
 
 .profile-info-cell strong {
     color: #01579B !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: large;
+    line-height: 1.5;
 }
 
 table {
@@ -87,6 +90,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
