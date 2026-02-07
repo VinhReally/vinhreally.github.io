@@ -19,4 +19,22 @@ fieldset{
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgb(163, 222, 242);
+
+}
+
+@media (max-width: 600px) {
+  fieldset { 
+    width: 95% !important; 
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .profile-picture {
+    max-width: 100%;
+    height: auto;
+  }
+    
+  p {
+    font-size: 20px;
+  }
 }
