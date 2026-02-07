@@ -1,47 +1,64 @@
-legend{
-    font-size: 1em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background-color: rgb(18, 171, 222);
-    margin-left: 6.5px;
-}
-.profile-details{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    line-height: 0.3;
-}
-fieldset{
+fieldset {
     border: 2px solid #000000;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgb(163, 222, 242);
+    max-width: 100%; 
+    box-sizing: border-box;
+}
 
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(18, 171, 222);
+}
+
+.profile-details {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 @media (max-width: 600px) {
     table, tr, td {
         display: block;
         width: 100% !important;
+        box-sizing: border-box;
     }
 
     td {
         text-align: center; 
+        white-space: normal !important;
+    }
+
+    .profile-pic-cell img{
+        width: 150px;
+        margin-bottom: 15px;
     }
     
-    .profile-picture {
+    legend {
+        font-size: 1em;
+        text-align: center;
         margin: 0 auto;
-        display: block;
     }
 }
-
-table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-
