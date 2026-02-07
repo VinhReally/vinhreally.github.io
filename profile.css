@@ -31,7 +31,7 @@ legend {
 }
 
 .info-table td {
-    color: red !important;
+    color: #263238 !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: large;
     line-height: 1.5;
@@ -90,6 +90,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
