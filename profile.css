@@ -17,7 +17,7 @@ legend {
     background-color: rgb(18, 171, 222);
 }
 
-.profile-details {
+.profile-info-cell {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     line-height: 1.5;
@@ -57,6 +57,7 @@ img {
     img {
         width: 150px;
         height: 150px;
+        border: 3px solid black;
         margin: 0 auto 15px auto;
     }
     
@@ -66,3 +67,4 @@ img {
         margin: 0 auto;
     }
 }
+
